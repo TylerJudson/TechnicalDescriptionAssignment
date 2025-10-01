@@ -123,7 +123,7 @@ For a valid request, the API returns a JSON object containing basic food informa
             "unit": "g",
             "amount": 0.3
         },
-        // More Micro Nutrients if the includeMicronutrients parameter is true ...
+        // Micronutrients if the includeMicronutrients parameter is true ...
     ]
 }
 ```
