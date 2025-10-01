@@ -1,7 +1,7 @@
 # Documentation on the GetNutritionalInfo API: Retrieving Nutritional Information
 
 ## Overview
-The GetNutritionalInfo API provides comprehensive nutritional information for given foods in the food database, allowing the system to efficiently display information to users. Use the user's API key to access the API and it will return a JSON with a field "nutritionalInfo" that is an array of all nutrients. 
+The GetNutritionalInfo API is an interface that allows developers to retrieve nutritional information for specific food items. By sending generic HTTP requests with the food identifier and the user's API key, the API returns a JSON object containing nutrients for the requested food. It provides both macronutrient (e.g., calories, protein, fat) and micronutrient (e.g., vitamins, minerals) data.
 
 ## Table of Contents
 - [Overview](#overview)
