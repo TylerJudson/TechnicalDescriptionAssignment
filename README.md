@@ -21,12 +21,12 @@ To use this API, make an HTTP GET request to the endpoint with the required para
 
 Production Endpoint: 
 ```http
-GET https://api.VitalicX.com/food/getNutritionalInfo?foodId={foodId}
+GET https://api.VitalicX.com/food/getNutritionalInfo?foodId={foodId}&includeMicronutrients={true}
 ```
 
 Development Endpoint (used during testing): 
 ```http
-GET https://api.VitalicX.com/dev/food/getNutritionalInfo?foodId={foodId}
+GET https://api.VitalicX.com/dev/food/getNutritionalInfo?foodId={foodId}&includeMicronutrients={true}
 ```
 
 
